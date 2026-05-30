@@ -1,10 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import { Navbar } from '@/components/layout/Navbar';
-import { Footer } from '@/components/layout/Footer';
-import { Button } from '@/components/ui/Button';
-import { Badge } from '@/components/ui/Badge';
+import Navbar from '@/components/layout/Navbar';
+import Footer from '@/components/layout/Footer';
+import Button from '@/components/ui/Button';
+import Badge from '@/components/ui/Badge';
 
 const categories = [
   { name: 'Design & Criativo', icon: '🎨', slug: 'design', count: 0 },
